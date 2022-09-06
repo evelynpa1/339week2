@@ -1,0 +1,11 @@
+html {
+    font-family: ;
+}
+h1 {
+    font-size: 40pt;
+}
+img {
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+}
