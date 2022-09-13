@@ -4,11 +4,15 @@ html {
 h1 {
     font-weight: bold;
     margin-top:15px;
+    font-size: 30pt;
 }
 img {
     object-fit: cover;
-    width: 230px;
-    height: 230px;
+    width: 24%;
+    height: 400px;
+    padding: 11px;
+    border: dotted 5px palevioletred;
+    margin: 0x;
 }
 .cover {
     object-fit: cover;
@@ -17,6 +21,7 @@ img {
     object-position: 0px -550px;
 }
 body{
+    background: pink;
     margin:5px;
     padding:5px;
     line-height:1.15;
@@ -28,7 +33,7 @@ body{
 nav ul li {
     outline: none;
     color: black;
-    background-color: pink;
+    background-color: lightpink;
     text-align: center;
     width: 150px;
     display: inline-block;
@@ -43,4 +48,11 @@ nav a {
 ul {
     margin: 20px;
 }
- 
+
+p {
+    padding: 5px 0px;
+    color: darkmagenta;
+    line-height: 2em;
+    font-weight: 600;
+    font-size: 11pt;
+}
