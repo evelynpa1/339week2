@@ -2,10 +2,45 @@ html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1 {
-    font-size: 40pt;
+    font-weight: bold;
+    margin-top:15px;
 }
 img {
     object-fit: cover;
     width: 230px;
     height: 230px;
 }
+.cover {
+    object-fit: cover;
+    width: 600px;
+    height: 200px;
+    object-position: 0px -550px;
+}
+body{
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+ }
+ ul li{
+    margin-left: 25px;
+    list-style-type: upper-roman;
+}
+nav ul li {
+    outline: none;
+    color: black;
+    background-color: pink;
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    border: 2px palevioletred solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: darkmagenta;
+}
+ul {
+    margin: 20px;
+}
+ 
